@@ -10,6 +10,7 @@ then
     export PS1="local: \W $ "
     #export GREP_OPTIONS='--color=auto'
     export GREP_COLOR='1;49;31'
+    export GIT_EDITOR=vim
     
     alias ll='ls -l'
     alias la='ls -a'
@@ -18,6 +19,10 @@ then
     alias grep='grep -E --color=auto'
     alias cp='cp -p'
     alias scp='scp -p'
+    alias squeue='squeue -a --sort==i -o "%.8i %.9P %.10j %.7u %.2t %.12M %.6D %.6C %.5m %.25R"'
+    #export configdir=/path/to/dotfile-config
+    #alias vi=`vim -u ${configdir}/vimrc'
+    #alias vim=`vim -u ${configdir}/vimrc'
 
     ### Possibly Ubuntu specific
     # set a fancy prompt (non-color, unless we know we "want" color)
