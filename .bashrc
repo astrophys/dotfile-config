@@ -21,6 +21,7 @@ then
     alias scp='scp -p'
     alias squeue='squeue -a --sort==i -o "%.8i %.9P %.10j %.7u %.2t %.12M %.6D %.6C %.5m %.25R"'
     #export configdir=/path/to/dotfile-config
+    #export INPUTRC=/path/to/dotfile-config/.inputrc
     #alias vi=`vim -u ${configdir}/vimrc'
     #alias vim=`vim -u ${configdir}/vimrc'
 
