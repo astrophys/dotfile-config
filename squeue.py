@@ -13,7 +13,6 @@ import sys
 import datetime
 import subprocess
 
-<<<<<<< HEAD
 
 class Job:
     """
@@ -78,6 +77,8 @@ def main():
         for tres in tresL:
             if 'gpu' in tres:
                 ngpu = tres.split('=')[-1]
+            else:
+                ngpu = 0
         job   = Job(jobid=jobid, part=part, jobname=name, user=user, state=state,
                     time=time, nnodes=nnodes, cpus=cpus, mem=mem, nodelist=nodes,
                     ngpu=ngpu)
