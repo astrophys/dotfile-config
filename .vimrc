@@ -21,7 +21,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-#https://stackoverflow.com/a/68337567/4021436
+"https://stackoverflow.com/a/68337567/4021436
 set nocompatible
 set wildmenu
 set wildmode=full

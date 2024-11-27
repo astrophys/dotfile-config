@@ -13,6 +13,7 @@ import sys
 import datetime
 import subprocess
 
+<<<<<<< HEAD
 
 class Job:
     """
